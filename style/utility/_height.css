@@ -1,0 +1,44 @@
+/* Height */
+.h-1 {
+  height: 1px;
+}
+
+.h-2 {
+  height: 2px;
+}
+.h-3 {
+  height: 4px;
+}
+
+.h-4 {
+  height: 8px;
+}
+.h-5 {
+  height: 10px;
+}
+
+.h-6 {
+  height: 12px;
+}
+.h-7 {
+  height: 14px;
+}
+
+.h-8 {
+  height: 16px;
+}
+.h-sm {
+  height: 10px;
+}
+
+.h-md {
+  height: 20px;
+}
+
+.h-lg {
+  height: 40px;
+}
+
+.h-100 {
+  height: 100%;
+}

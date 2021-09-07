@@ -1,0 +1,40 @@
+@import url("./utility/_font.css");
+@import url("./utility/_flex.css");
+@import url("./utility/_margin.css");
+@import url("./utility/_background.css");
+@import url("./utility/_height.css");
+@import url("./utility/_padding.css");
+@import url("./utility/_width.css");
+@import url("./utility/_grid.css");
+/* Border Radius */
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-none {
+  border-radius: none;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.border {
+  border: 1.25px solid #666;
+}
+
+.border-orange {
+  border-color: #faa100;
+}
+
+.border-none {
+  border: none;
+}
+
+.border-right-1 {
+  border-right: 1px solid #ddd;
+}
+
+.border-bottom-dotted {
+  border-bottom: 1px dotted #ddd;
+}
