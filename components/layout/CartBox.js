@@ -11,7 +11,7 @@ const CartBox = () => {
   cartHeading.textContent = "Price Summay";
   // 2+
   let hrTop = create("hr", [
-    "bg-gray",
+    "bg-primary",
     "border-none",
     "border-bottom-dashed",
     "text-gray",
@@ -43,7 +43,7 @@ const CartBox = () => {
   p32.append(span);
 
   let hr = create("hr", [
-    "bg-gray",
+    "bg-primary",
     "border-none",
     "border-bottom-dashed",
     "text-gray",

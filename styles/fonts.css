@@ -1,5 +1,4 @@
-/* Text */
-.text-blue {
+* Fonts & Text Related */ .text-blue {
   color: #004990;
 }
 
@@ -56,4 +55,7 @@
 
 .font-inherit {
   font-family: inherit;
+}
+.font-family-monsterrat {
+  font-family: "Montserrat", sans-serif;
 }

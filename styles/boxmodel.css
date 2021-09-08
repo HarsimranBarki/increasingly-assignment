@@ -1,0 +1,44 @@
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.border {
+  border: 1.25px solid #666;
+}
+
+.border-orange {
+  border-color: #faa100;
+}
+
+.border-gray {
+  border-color: #e1e1e1;
+}
+
+.border-medium {
+  border: 2px solid;
+}
+.border-none {
+  border: none;
+}
+
+.border-right-1 {
+  border-right: 1px solid #ddd;
+}
+
+@media only screen and (max-width: 1300px) {
+  .border-right-none {
+    border-right: none;
+  }
+}
+
+.border-bottom-dashed {
+  border-bottom: 1px dashed #e1e1e1;
+}
+
+.hidden {
+  display: none;
+}

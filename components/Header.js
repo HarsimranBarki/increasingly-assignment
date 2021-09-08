@@ -5,10 +5,10 @@ const Header = () => {
    * -> nav
    * --> button + img
    */
-  let header = create("header", ["bg-gray", "h-lg"]);
+  let header = create("header", ["bg-primary", "h-lg"]);
 
   let nav = create("nav", [
-    "max-w-lg",
+    "root_container",
     "m-auto",
     "flex",
     "items-center",

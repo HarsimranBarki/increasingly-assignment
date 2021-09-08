@@ -3,7 +3,7 @@ import create from "../../lib/create.js";
 const ProductImage = () => {
   let productContainer = create("div", ["p-5", "flex-40"]);
   let mainImage = create("div", ["flex", "justify-center", "items-center"]);
-  let image = create("img", ["p-5"]);
+  let image = create("img", ["p-5", "w-100"]);
   image.setAttribute("id", "gallery_preview");
   image.src = "./img/camera_main.png";
 

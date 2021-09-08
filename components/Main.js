@@ -5,7 +5,7 @@ import ProductBox from "./layout/ProductBox.js";
 
 const Main = () => {
   const main = create("main", [
-    "max-w-lg",
+    "root_container",
     "m-auto",
     "flex",
     "flex-wrap",

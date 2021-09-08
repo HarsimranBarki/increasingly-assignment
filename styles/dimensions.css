@@ -1,5 +1,29 @@
-/* Margin */
+/* Height */
+.h-1 {
+  height: 1px;
+}
 
+.h-2 {
+  height: 2px;
+}
+
+.h-8 {
+  height: 16px;
+}
+
+.h-lg {
+  height: 40px;
+}
+
+.h--48 {
+  height: 48px;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+/* Margin */
 .mr-1 {
   margin-right: 0.5rem;
 }
@@ -73,4 +97,33 @@
 }
 .m-auto {
   margin: 0 auto;
+}
+
+/* Padding */
+.p-5 {
+  padding: 8px;
+}
+
+.p-7 {
+  padding: 12px;
+}
+.p-8 {
+  padding: 15px;
+}
+
+/* Width */
+.w-100 {
+  width: 100%;
+}
+
+.w-7 {
+  width: 1.75rem;
+}
+
+.w-20 {
+  width: 5rem;
+}
+
+.w-popup {
+  width: 600px;
 }

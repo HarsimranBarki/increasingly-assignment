@@ -1,0 +1,56 @@
+/* Main */
+/* Root Operations */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Setting Fonts & Families */
+body {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+/* Container */
+.root_container {
+  max-width: 90vw;
+
+  @media only screen and (max-width: 1000px) {
+    max-width: 90vw;
+  }
+}
+
+.bg-primary {
+  background-color: #f3f3f3;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* Buttons */
+.button {
+  border: none;
+  cursor: pointer;
+}
+
+.button-bg--orange {
+  background-color: #faa100;
+  transition: all 0.2s;
+}
+
+.button-bg--orange:hover {
+  background-color: #f5b237;
+}
+
+/* Gallery */
+.gallery_item {
+  width: 100px;
+}
+
+.gallery_item_active {
+  background-color: #efefef;
+  border: 1px solid;
+  border-color: #faa100;
+  transition: all 0.2s;
+}
