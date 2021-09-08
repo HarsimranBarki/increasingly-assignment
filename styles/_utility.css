@@ -11,10 +11,6 @@
   border-radius: 0.25rem;
 }
 
-.rounded-none {
-  border-radius: none;
-}
-
 .inline-block {
   display: inline-block;
 }
@@ -48,10 +44,6 @@
   }
 }
 
-.border-bottom-dotted {
-  border-bottom: 1px dotted #e1e1e1;
-}
-
 .border-bottom-dashed {
   border-bottom: 1px dashed #e1e1e1;
 }
@@ -62,10 +54,6 @@
 
 .hidden {
   display: none;
-}
-
-.visible {
-  display: block;
 }
 
 /* Gallery */

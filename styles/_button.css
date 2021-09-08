@@ -3,10 +3,6 @@
   cursor: pointer;
 }
 
-.button-bg-none {
-  background: none;
-}
-
 .button-bg--orange {
   background-color: #faa100;
   transition: all 0.2s;

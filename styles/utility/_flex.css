@@ -3,14 +3,6 @@
   display: flex;
 }
 
-.flex-col {
-  flex-direction: column;
-}
-
-.flex-row {
-  flex-direction: row;
-}
-
 .items-center {
   align-items: center;
 }
@@ -39,9 +31,6 @@
   flex: 40%;
 }
 
-.flex-50 {
-  flex: 50%;
-}
 .flex-10 {
   flex: 10%;
 }

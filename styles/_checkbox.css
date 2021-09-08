@@ -9,16 +9,6 @@
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
-.camera_preview_box_hidden {
-  display: none;
-  opacity: 0;
-}
-
-.camera_preview_box_visible {
-  display: block;
-  opacity: 1;
-}
-
 .form-group {
   display: block;
   margin-bottom: 15px;
