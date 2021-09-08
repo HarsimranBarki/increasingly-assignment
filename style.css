@@ -4,8 +4,27 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  position: relative;
 }
 
 header {
   font-family: "Montserrat", sans-serif;
+}
+
+.camera_preview_box {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  background: white;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.camera_preview_box_hidden {
+  display: none;
+}
+
+#camera_popup_preview {
+  width: 600px;
 }

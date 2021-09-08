@@ -19,7 +19,16 @@
     <!-- Header Navigation -->
     <header class="bg-gray h-lg">
       <nav class="max-w-lg m-auto flex items-center h-100">
-        <button class="button text-blue text-sm font-medium flex items-center">
+        <button
+          class="
+            button
+            text-blue text-sm
+            font-medium
+            flex
+            items-center
+            font-family-monsterrat
+          "
+        >
           <img src="./img/nav.svg" class="mr-1 h-8" /> Back
         </button>
       </nav>
@@ -28,20 +37,46 @@
     <!-- Main Body -->
     <main class="max-w-lg m-auto flex flex-wrap p-5 w-100">
       <!-- Product -->
-      <div class="flex border-right-1">
+      <div class="flex border-right-1 w-3-4">
         <!-- Product Image -->
-        <div class="p-6">
-          <img src="./img/camera_main.png" alt="" srcset="" />
-          <div class="grid gap-1 w-100 grid-template-columns">
-            <img src="./img/camera_preview_1.png" alt="1" />
-            <img src="./img/camera_preview_2.png" alt="2" />
-            <img src="./img/camera_preview_3.png" alt="3" />
-            <img src="./img/camera_preview_4.png" alt="4" />
+        <div class="p-8">
+          <img
+            src="./img/camera_main.png"
+            alt=""
+            srcset=""
+            id="main_preview"
+            class="p-5"
+          />
+          <div class="flex gap-5 justify-center w-100 mt-5">
+            <img
+              src="./img/camera_preview_1.png"
+              alt="1"
+              class="gallery_item gallery_item_active"
+              data-imageID="1"
+            />
+            <img
+              src="./img/camera_preview_2.png"
+              class="gallery_item"
+              alt="2"
+              data-imageID="2"
+            />
+            <img
+              src="./img/camera_preview_3.png"
+              class="gallery_item"
+              alt="3"
+              data-imageID="3"
+            />
+            <img
+              src="./img/camera_preview_4.png"
+              class="gallery_item"
+              alt="4"
+              data-imageID="4"
+            />
           </div>
         </div>
 
         <!-- Product Information & Price -->
-        <div class="p-6">
+        <div class="p-8">
           <!-- Name -->
           <h2 class="font-semibold text-md">
             MPX HD 1080p Outdoor PTZ Camera, 4x Optical Zoom with Color Night
@@ -152,7 +187,9 @@
                   <p class="text-blue font-bold mr-1">$129.99</p>
                   <p class="text-green font-bold">SAVE $70.00 (35%)</p>
                 </div>
-                <p class="mt-3 font-normal">SINGLE <a href="#">Edit</a></p>
+                <p class="mt-3 font-normal">
+                  SINGLE <a href="#" class="text-blue ml-1">Edit</a>
+                </p>
               </div>
             </div>
             <hr class="bg-gray border-none text-gray h-2" />
@@ -179,7 +216,9 @@
                   <p class="text-blue font-bold mr-1">$129.99</p>
                   <p class="text-green font-bold">SAVE $70.00 (35%)</p>
                 </div>
-                <p class="mt-3 font-normal">SINGLE <a href="#">Edit</a></p>
+                <p class="mt-3 font-normal">
+                  SINGLE <a href="#" class="text-blue ml-1">Edit</a>
+                </p>
               </div>
             </div>
             <hr class="bg-gray border-none text-gray h-2" />
@@ -206,7 +245,9 @@
                   <p class="text-blue font-bold mr-1">$129.99</p>
                   <p class="text-green font-bold">SAVE $70.00 (35%)</p>
                 </div>
-                <p class="mt-3 font-normal">SINGLE <a href="#">Edit</a></p>
+                <p class="mt-3 font-normal">
+                  SINGLE <a href="#" class="text-blue ml-1">Edit</a>
+                </p>
               </div>
             </div>
             <hr class="bg-gray border-none text-gray h-2" />
@@ -215,13 +256,13 @@
       </div>
       <!-- Cart -->
       <div class="flex-grow">
-        <div class="p-6">
+        <div class="p-8">
           <h3 class="font-medium text-md">Price Summary</h3>
 
           <hr
             class="
               bg-gray
-              border-none border-bottom-dotted
+              border-none border-bottom-dashed
               text-gray
               h-1
               w-full
@@ -261,7 +302,7 @@
           <hr
             class="
               bg-gray
-              border-none border-bottom-dotted
+              border-none border-bottom-dashed
               text-gray
               h-1
               w-full
@@ -286,10 +327,15 @@
               w-100
             "
           >
-            Add 4 items to cart
+            Add 4 Items To Cart
           </button>
         </div>
       </div>
     </main>
+
+    <!-- Zoom -->
+    <div class="camera_preview_box hidden" id="camera_popup">
+      <img src="" alt="preview" id="camera_popup_preview" />
+    </div>
   </body>
 </html>

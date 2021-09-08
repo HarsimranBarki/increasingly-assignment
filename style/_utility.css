@@ -36,5 +36,35 @@
 }
 
 .border-bottom-dotted {
-  border-bottom: 1px dotted #ddd;
+  border-bottom: 1px dotted #e1e1e1;
+}
+
+.border-bottom-dashed {
+  border-bottom: 1px dashed #e1e1e1;
+}
+
+.font-family-monsterrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.gallery_item {
+  width: 100px;
+}
+
+.gallery_item_active {
+  background-color: #efefef;
+  border: 1px solid;
+  border-color: #faa100;
+}
+
+#main_preview {
+  width: 500px;
 }
