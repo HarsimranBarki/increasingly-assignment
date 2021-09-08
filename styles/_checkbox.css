@@ -1,16 +1,3 @@
-@import url("./style/_container.css");
-@import url("./style/_utility.css");
-@import url("./style/_button.css");
-
-body {
-  font-family: "Poppins", sans-serif;
-  position: relative;
-}
-
-header {
-  font-family: "Montserrat", sans-serif;
-}
-
 .camera_preview_box {
   position: absolute;
   top: 10%;
@@ -32,9 +19,6 @@ header {
   opacity: 1;
 }
 
-#popup_image {
-  width: 600px;
-}
 .form-group {
   display: block;
   margin-bottom: 15px;

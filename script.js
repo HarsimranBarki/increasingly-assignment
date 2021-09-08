@@ -1,3 +1,42 @@
+import Header from "./components/Header.js";
+import Main from "./components/Main.js";
+
+class View {
+  constructor() {}
+
+  render() {
+    let container = document.getElementById("app");
+    container.appendChild(Header());
+    container.appendChild(Main());
+  }
+
+  create(tag, className) {
+    let ele = document.createElement(tag);
+    ele.classList.add(...className);
+    return ele;
+  }
+}
+class Model {
+  constructor() {
+    this.state = [];
+  }
+}
+
+class Controller {
+  constructor(model, view) {
+    this.model = model;
+    this.view = view;
+  }
+
+  handleRender() {
+    this.view.render();
+  }
+}
+
+const app = new Controller(new Model(), new View());
+app.handleRender();
+
+// Handling UI
 // Initializing Selectors
 let popup = document.getElementById("camera_popup");
 let galleryMain = document.getElementById("gallery_preview");

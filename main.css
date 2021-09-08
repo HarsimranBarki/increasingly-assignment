@@ -1,0 +1,13 @@
+@import url("./styles/_container.css");
+@import url("./styles/_utility.css");
+@import url("./styles/_button.css");
+@import url("./styles/_checkbox.css");
+
+body {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+header {
+  font-family: "Montserrat", sans-serif;
+}
