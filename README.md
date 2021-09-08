@@ -7,9 +7,9 @@ This is a submission for trinkerr front-end task for Front-End position
 
 ## Tech Stack
 
-- [**HTML**]
-- [**CSS**]
-- [**VanillJS**]
+- **HTML**
+- **CSS**
+- **VanillJS**
 
 ## Instruction
 
