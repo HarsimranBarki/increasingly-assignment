@@ -4,20 +4,19 @@ let gallery_item = document.querySelectorAll(".gallery_item");
 let camera_popup = document.getElementById("camera_popup_preview");
 
 main_preview.addEventListener("mouseenter", () => {
-  console.log("entered");
   setPreview();
 });
 
 main_preview.addEventListener("mouseleave", () => {
-  console.log("left");
   setPreview();
 });
 
 let isPreview = false;
-const setPreview = () => {
-  let cameraStyle = camera_preview.style;
-  camera_popup.src = main_preview.src;
+let cameraStyle = camera_preview.style;
 
+const setPreview = () => {
+  camera_popup.src = main_preview.src;
+  console.log(cameraStyle[0]);
   if (!isPreview) {
     cameraStyle.display = "block";
     isPreview = true;

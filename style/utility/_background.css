@@ -9,4 +9,9 @@
 
 .bg-orange {
   background-color: #faa100;
+  transition: all 0.2s;
+}
+
+.hover-bg-gray:hover {
+  background-color: #f3f3f3;
 }

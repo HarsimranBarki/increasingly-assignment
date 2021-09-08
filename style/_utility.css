@@ -27,6 +27,13 @@
   border-color: #faa100;
 }
 
+.border-gray {
+  border-color: #e1e1e1;
+}
+
+.border-medium {
+  border: 2px solid;
+}
 .border-none {
   border: none;
 }
@@ -63,8 +70,13 @@
   background-color: #efefef;
   border: 1px solid;
   border-color: #faa100;
+  transition: all 0.2s;
 }
 
 #main_preview {
   width: 500px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }

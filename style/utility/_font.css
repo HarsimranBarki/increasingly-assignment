@@ -10,6 +10,10 @@
 .text-orange {
   color: #faa100;
 }
+
+.text-gray {
+  color: #545454;
+}
 .text-xsm {
   font-size: 12px;
 }
@@ -21,7 +25,9 @@
 .text-md {
   font-size: 16px;
 }
-
+.text-lg {
+  font-size: 20px;
+}
 .font-normal {
   font-weight: normal;
 }

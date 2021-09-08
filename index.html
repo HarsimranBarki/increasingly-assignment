@@ -40,35 +40,38 @@
       <div class="flex border-right-1 w-3-4">
         <!-- Product Image -->
         <div class="p-8">
-          <img
-            src="./img/camera_main.png"
-            alt=""
-            srcset=""
-            id="main_preview"
-            class="p-5"
-          />
-          <div class="flex gap-5 justify-center w-100 mt-5">
+          <div class="flex justify-center items-center" style="height: 500px">
+            <img
+              src="./img/camera_main.png"
+              alt=""
+              srcset=""
+              id="main_preview"
+              class="p-5"
+            />
+          </div>
+
+          <div class="flex gap-5 justify-center w-100">
             <img
               src="./img/camera_preview_1.png"
               alt="1"
-              class="gallery_item gallery_item_active"
+              class="gallery_item gallery_item_active border border-gray"
               data-imageID="1"
             />
             <img
               src="./img/camera_preview_2.png"
-              class="gallery_item"
+              class="gallery_item border border-gray"
               alt="2"
               data-imageID="2"
             />
             <img
               src="./img/camera_preview_3.png"
-              class="gallery_item"
+              class="gallery_item border border-gray"
               alt="3"
               data-imageID="3"
             />
             <img
               src="./img/camera_preview_4.png"
-              class="gallery_item"
+              class="gallery_item border border-gray"
               alt="4"
               data-imageID="4"
             />
@@ -102,17 +105,49 @@
           <!-- Options -->
           <p class="mt-4 font-semibold">Select Options</p>
           <div class="flex mt-2">
-            <div class="border border-orange text-orange p-5 mr-2 rounded w-20">
+            <div
+              class="
+                border border-orange
+                text-orange
+                p-5
+                mr-2
+                rounded
+                w-20
+                hover-bg-gray
+                cursor-pointer
+              "
+            >
               SINGLE <br />
               $199.99
             </div>
-            <div class="border p-5 mr-2 rounded w-20">
-              SINGLE <br />
-              $199.99
+            <div
+              class="
+                border border-medium
+                p-5
+                mr-2
+                rounded
+                w-20
+                hover-bg-gray
+                cursor-pointer
+              "
+            >
+              2-PACK <br />
+              $299.99
             </div>
-            <div class="border p-5 mr-2 rounded w-20">
-              SINGLE <br />
-              $199.99
+            <div
+              class="
+                border-gray border border-medium
+                p-5
+                mr-2
+                rounded
+                w-20
+                hover-bg-gray
+                text-gray
+                cursor-pointer
+              "
+            >
+              4-PACK <br />
+              $399.99
             </div>
           </div>
 
@@ -124,40 +159,50 @@
                 border
                 rounded
                 flex
+                text-lg
+                hover-bg-gray
                 items-center
+                text-gray
+                cursor-pointer
                 justify-center
-                w-6
+                w-7
               "
             >
-              +
+              -
             </div>
             <div
               class="
                 mr-2
                 p-5
                 border border-orange
-                w-6
+                w-7
                 rounded
                 flex
+                cursor-pointer
+                text-gray text-lg
                 items-center
                 justify-center
               "
             >
-              2
+              1
             </div>
             <div
               class="
                 mr-2
                 p-5
+                cursor-pointer
                 border
                 rounded
-                w-6
+                w-7
+                text-lg
+                hover-bg-gray
+                text-gray
                 flex
                 items-center
                 justify-center
               "
             >
-              -
+              +
             </div>
           </div>
           <hr class="mt-5 mb-5 bg-gray border-none text-gray h-2" />
@@ -165,7 +210,10 @@
             <p class="font-semibold">Add-ons Products</p>
             <!-- Add One Items -->
             <div class="flex items-center p-5">
-              <input type="checkbox" name="check" id="" class="mr-2" />
+              <div class="form-group">
+                <input type="checkbox" id="c_1" />
+                <label for="c_1"></label>
+              </div>
               <img src="./img/add_one_1.png" alt="add" class="mr-2" />
               <div>
                 <h2 class="font-normal text-sm">
@@ -194,7 +242,10 @@
             </div>
             <hr class="bg-gray border-none text-gray h-2" />
             <div class="flex items-center p-5">
-              <input type="checkbox" name="check" id="" class="mr-2" />
+              <div class="form-group">
+                <input type="checkbox" id="c_2" />
+                <label for="c_2"></label>
+              </div>
               <img src="./img/add_one_2.png" alt="add" class="mr-2" />
               <div>
                 <h2 class="font-normal text-sm">
@@ -223,7 +274,10 @@
             </div>
             <hr class="bg-gray border-none text-gray h-2" />
             <div class="flex items-center p-5">
-              <input type="checkbox" name="check" id="" class="mr-2" />
+              <div class="form-group">
+                <input type="checkbox" id="c_3" />
+                <label for="c_3"></label>
+              </div>
               <img src="./img/add_one_3.png" alt="add" class="mr-2" />
               <div>
                 <h2 class="font-normal text-sm">
@@ -323,7 +377,7 @@
               font-semibold
               mt-3
               rounded
-              bg-orange
+              button-bg--orange
               w-100
             "
           >
