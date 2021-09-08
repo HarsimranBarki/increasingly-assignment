@@ -49,3 +49,11 @@
 .text-right {
   text-align: right;
 }
+
+.text-darkgray {
+  color: #383838;
+}
+
+.font-inherit {
+  font-family: inherit;
+}

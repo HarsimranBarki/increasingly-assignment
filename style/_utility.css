@@ -42,6 +42,12 @@
   border-right: 1px solid #ddd;
 }
 
+@media only screen and (max-width: 1300px) {
+  .border-right-none {
+    border-right: none;
+  }
+}
+
 .border-bottom-dotted {
   border-bottom: 1px dotted #e1e1e1;
 }
@@ -73,8 +79,8 @@
   transition: all 0.2s;
 }
 
-#main_preview {
-  width: 500px;
+#gallery_preview {
+  width: 100%;
 }
 
 .cursor-pointer {

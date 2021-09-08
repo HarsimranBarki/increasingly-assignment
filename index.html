@@ -35,22 +35,22 @@
     </header>
 
     <!-- Main Body -->
-    <main class="max-w-lg m-auto flex flex-wrap p-5 w-100">
+    <main class="max-w-lg m-auto flex flex-wrap p-5 w-100 md-flex-col">
       <!-- Product -->
-      <div class="flex border-right-1 w-3-4">
+      <div class="flex border-right-1 flex-60 flex-wrap p-8 border-right-none">
         <!-- Product Image -->
-        <div class="p-8">
-          <div class="flex justify-center items-center" style="height: 500px">
+        <div class="p-5 flex-40">
+          <div class="flex justify-center items-center">
             <img
               src="./img/camera_main.png"
               alt=""
               srcset=""
-              id="main_preview"
+              id="gallery_preview"
               class="p-5"
             />
           </div>
 
-          <div class="flex gap-5 justify-center w-100">
+          <div class="mt-8 flex gap-5 justify-center w-100 flex-wrap">
             <img
               src="./img/camera_preview_1.png"
               alt="1"
@@ -79,14 +79,14 @@
         </div>
 
         <!-- Product Information & Price -->
-        <div class="p-8">
+        <div class="flex-grow p-5 flex-40">
           <!-- Name -->
           <h2 class="font-semibold text-md">
             MPX HD 1080p Outdoor PTZ Camera, 4x Optical Zoom with Color Night
             Vision, Metal Camera
           </h2>
           <!-- Review -->
-          <div class="mt-1 flex items-center">
+          <div class="mt-1 flex items-center flex-wrap">
             <img src="./img/star.png" alt="star" class="mr-1" />
             <img src="./img/star.png" alt="star" class="mr-1" />
             <img src="./img/star.png" alt="star" class="mr-1" />
@@ -104,13 +104,12 @@
 
           <!-- Options -->
           <p class="mt-4 font-semibold">Select Options</p>
-          <div class="flex mt-2">
+          <div class="flex mt-2 sm-flex-wrap gap-6">
             <div
               class="
                 border border-orange
                 text-orange
                 p-5
-                mr-2
                 rounded
                 w-20
                 hover-bg-gray
@@ -124,7 +123,6 @@
               class="
                 border border-medium
                 p-5
-                mr-2
                 rounded
                 w-20
                 hover-bg-gray
@@ -138,7 +136,6 @@
               class="
                 border-gray border border-medium
                 p-5
-                mr-2
                 rounded
                 w-20
                 hover-bg-gray
@@ -209,12 +206,12 @@
           <div>
             <p class="font-semibold">Add-ons Products</p>
             <!-- Add One Items -->
-            <div class="flex items-center p-5">
+            <div class="flex items-center p-5 flex-wrap">
               <div class="form-group">
                 <input type="checkbox" id="c_1" />
                 <label for="c_1"></label>
               </div>
-              <img src="./img/add_one_1.png" alt="add" class="mr-2" />
+              <img src="./img/add_one_1.png" alt="add" class="ml-2 mr-2" />
               <div>
                 <h2 class="font-normal text-sm">
                   DEAL OF THE DAY! 4K Ultra HD 8 Channel Security DVR with...
@@ -241,12 +238,12 @@
               </div>
             </div>
             <hr class="bg-gray border-none text-gray h-2" />
-            <div class="flex items-center p-5">
+            <div class="flex items-center p-5 flex-wrap">
               <div class="form-group">
                 <input type="checkbox" id="c_2" />
                 <label for="c_2"></label>
               </div>
-              <img src="./img/add_one_2.png" alt="add" class="mr-2" />
+              <img src="./img/add_one_2.png" alt="add" class="ml-2 mr-2" />
               <div>
                 <h2 class="font-normal text-sm">
                   DEAL OF THE DAY! 4K Ultra HD 8 Channel Security DVR with...
@@ -273,12 +270,12 @@
               </div>
             </div>
             <hr class="bg-gray border-none text-gray h-2" />
-            <div class="flex items-center p-5">
+            <div class="flex items-center p-5 flex-wrap">
               <div class="form-group">
                 <input type="checkbox" id="c_3" />
                 <label for="c_3"></label>
               </div>
-              <img src="./img/add_one_3.png" alt="add" class="mr-2" />
+              <img src="./img/add_one_3.png" alt="add" class="ml-2 mr-2" />
               <div>
                 <h2 class="font-normal text-sm">
                   DEAL OF THE DAY! 4K Ultra HD 8 Channel Security DVR with...
@@ -309,7 +306,7 @@
         </div>
       </div>
       <!-- Cart -->
-      <div class="flex-grow">
+      <div class="flex-10">
         <div class="p-8">
           <h3 class="font-medium text-md">Price Summary</h3>
 
@@ -332,6 +329,7 @@
                 flex
                 items-center
                 w-full
+                text-darkgray
                 justify-between
               "
             >
@@ -344,6 +342,7 @@
                 font-normal
                 text-sm
                 flex
+                text-darkgray
                 items-center
                 w-full
                 justify-between
@@ -362,9 +361,19 @@
               w-full
             "
           />
-          <div class="mt-3 font-normal text-sm flex w-full justify-between">
+          <div
+            class="
+              mt-3
+              font-normal
+              text-sm
+              flex
+              w-full
+              justify-between
+              text-darkgray
+            "
+          >
             <p>Total Price</p>
-            <p class="text-blue font-bold text-md text-right">
+            <p class="text-blue font-bold text-lg text-right">
               $441.95 <br />
               <span class="text-green text-sm">SAVE $70.00 (35%)</span>
             </p>
@@ -379,6 +388,8 @@
               rounded
               button-bg--orange
               w-100
+              h--48
+              font-inherit
             "
           >
             Add 4 Items To Cart
@@ -389,7 +400,7 @@
 
     <!-- Zoom -->
     <div class="camera_preview_box hidden" id="camera_popup">
-      <img src="" alt="preview" id="camera_popup_preview" />
+      <img src="" alt="preview" id="popup_image" />
     </div>
   </body>
 </html>

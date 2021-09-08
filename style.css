@@ -15,7 +15,9 @@ header {
   position: absolute;
   top: 10%;
   left: 50%;
+
   transform: translate(-50%, -10%);
+  transition: opacity 0.2s;
   background: white;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
@@ -23,9 +25,15 @@ header {
 
 .camera_preview_box_hidden {
   display: none;
+  opacity: 0;
 }
 
-#camera_popup_preview {
+.camera_preview_box_visible {
+  display: block;
+  opacity: 1;
+}
+
+#popup_image {
   width: 600px;
 }
 .form-group {
