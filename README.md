@@ -9,7 +9,7 @@ This is a submission for trinkerr front-end task for Front-End position
 
 - **HTML**
 - **CSS**
-- **VanillJS**
+- **VanillaJS**
 
 ## Instruction
 
