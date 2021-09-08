@@ -1,4 +1,4 @@
-# [Increasingly Assignment](https://trinkerr-assignment.vercel.app/)
+# [Increasingly Assignment](https://increasingly-assignment.vercel.app/)
 
 This is a submission for trinkerr front-end task for Front-End position
 
